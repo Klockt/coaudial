@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   box-sizing: border-box
+}
+
+body {
+    background: rgba(107, 110, 168, 0.72);
+   text-decoration: none
+}
+
+h1 {
+    color: #fff;
+    padding: 1%;
+    padding-top: 3%;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    width: 400px;
+    height: 357px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-color: #fff;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ong_banner {
+    position: relative;
+    width: 90%;
+    height: 60%;
+    left: 5%;
+    border-radius: 10%;
+}
+
+.Profile {
+    font-size: 20;
+    text-decoration: none;
+    color: black;
+    left: 10%;
+    position: relative;
+
+}

@@ -5,14 +5,15 @@
 {% endblock %}
 
 {% block content %}
+<link rel="stylesheet" href="/static/frontend/search_result.css">
     <h1>Resultados de la búsqueda</h1>
-
+<div>
     {% if users %}
         <ul>
             {% for user in users %}
                 <li>
-                    <a href="{% url 'profile' user.username %}">
-                        {{ user.first_name }}
+                    <a href="{% url 'profile' user.username %}" class="container">
+                        <h2 class="Profile">{{ user.first_name }}</h2>
                     </a>
                 </li>
             {% endfor %}
